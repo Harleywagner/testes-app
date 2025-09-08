@@ -1,0 +1,27 @@
+{
+  "name": "Igreja Vida em Graça",
+  "short_name": "Viva em Graça",
+  "description": "Igreja Vida em Graça - Uma comunidade de fé que transforma vidas através do amor de Cristo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4ECDC4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/src/assets/icone3D.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/src/assets/icone3D.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "social"],
+  "lang": "pt-BR"
+}
+
