@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Igreja Viva em Graça",
+    "slug": "igreja-viva-em-graca-youtube-integration",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "igreja-viva-em-graca",
+    "extra": {
+      "eas": {
+        "projectId": "9eabcff6-023f-498a-8740-6a119cbaf4ae"
+      }
+    }
+  }
+}
