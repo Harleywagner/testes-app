@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "VivaEmGraca+",
+    "slug": "vivaemgracaplus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4a7c59"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vivaemgraca.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#4a7c59"
+      },
+      "package": "com.vivaemgraca.app",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "RECORD_AUDIO",
+        "MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ce808182-e723-4e0b-bc5a-3c851a5ac3e5"
+      }
+    },
+    "plugins": [
+      "expo-av"
+    ],
+    "owner": "stevanshuichi"
+  }
+}
